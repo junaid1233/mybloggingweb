@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/images/blog.webp');
+    background-size: cover;
+    background-position: center;
+
+ 
+  }
+  
+  .heading {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Exploring My Acadmey",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat odio vel lectus faucibus eleifend.",
+    "publishDate": "2022-07-01",
+    "author": "MUHAMMAD JUNAID",
+    "image": "/images/Academy.jpg"
+  },
+  {
+    "title": "Special cooking masala",
+    "body": "the act of preparing food for eating especially by heating : the act of cooking food. I do most of the cooking for our family",
+    "publishDate": "2023-01-23",
+    "author": "Muhammad Shoaib",
+    "image": "/images/cooking.webp"
+  },
+  {
+    "title": "Visit Abroad: Paris",
+    "body": "you go to a foreign country, usually one which is separated from the country where you live by an ocean or a sea.",
+    "publishDate": "2021-02-15",
+    "author": "Muhammad Hasnain",
+    "image": "/images/paris.jfif"
+  }
+]

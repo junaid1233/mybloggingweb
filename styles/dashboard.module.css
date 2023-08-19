@@ -1,0 +1,194 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .headerButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .profileButton,
+  .logoutButton {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .profileButton:hover{
+    color: #a370f7;
+  }
+  .logoutButton:hover{
+    color: #a370f7;
+  }
+
+
+  .newBlogForm {
+    background-color: #a370f7;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .newBlogTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .newBlogFormFields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+
+.textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .postButton {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .postButton:hover{
+    color: #a370f7;
+  }
+  .blogPost {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .blogPostsTitle{
+    padding: 15px;
+    /* margin-left: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .publishDate,
+  .author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .blogTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .blogBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+
+  
+  .buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .editButton,
+  .deleteButton {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .editButton {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .editForm {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .editTitleInput,
+  .editBodyTextarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .saveButton,
+  .cancelButton {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .saveButton {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .cancelButton {
+    background-color: #dc3545;
+    color: #fff;
+    margin-left: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
